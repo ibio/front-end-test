@@ -15,7 +15,7 @@ Online Demo: http://us.ypseek.com/labs/2017/weather/
 * Safari: Version 10.0.3 (12602.4.8)
 * Firefox: 51.0.1 (64-bit)
 
-NOTICE: for this small project, I just developed it for demonstrating my ability 1) to learn new things very fast, and 2) my coding philosophy -- get it done, and then progressive enhancement. I used total around 4 hours when I got the task, and also, I've never touched Angular before. It is my first time to get into the Angular world. So there are some workaround that I need to use Angular way to redo it when I got a time.
+__NOTICE__: for this small project, I just developed it for demonstrating my ability 1) to learn new things very fast, and 2) my coding philosophy -- get it done, and then progressive enhancement. I used total around 4 hours when I got the task, and also, I've never touched Angular before. It is my first time to get into the Angular world. So there are some workaround that I need to use Angular way to redo it when I got a time.
 
 ## Instructions
 + Clone this repo [Done!]
