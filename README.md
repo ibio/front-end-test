@@ -43,5 +43,5 @@ __NOTICE__: for this small project, I just developed it for demonstrating my abi
     + Day of the week
     + High temperature
     + Low temperature
-    + Weather description (ie. Breezy)
+    + Weather description (ie. Breezy) [I didn't find out how to modify tips of the charts for now, but it certainly can be done...]
 + __Bonus:__ Was this too easy? Want to make it a real app? Use the [Yahoo's Weather API](https://developer.yahoo.com/weather/) or [Open Weather API](https://openweathermap.org/api) with the default location set to New York, NY, and allow the user to change the location by zip code. [Done!]
