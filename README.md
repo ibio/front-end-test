@@ -1,17 +1,18 @@
 # Front End Test
 An AngularJS focused take home test for Front-end Developers.
 [Done!]
+
 Online Demo: http://us.ypseek.com/labs/2017/weather/
 
 ## Main features:
-*1 ajax json api to get Yahoo Weather Data
-*2 responsive design (mobile friendly)
-*3 angular chart
+* ajax json api to get Yahoo Weather Data
+* responsive design (mobile friendly)
+* angular chart
 
-*Browser Compatibility:
-*Chrome: Version 56.0.2924.87 (64-bit)
-*Safari: Version 10.0.3 (12602.4.8)
-*Firefox: 51.0.1 (64-bit)
+* Browser Compatibility:
+* Chrome: Version 56.0.2924.87 (64-bit)
+* Safari: Version 10.0.3 (12602.4.8)
+* Firefox: 51.0.1 (64-bit)
 
 NOTICE: for this small project, I just developed it for demonstrating my ability 1) to learn new things very fast, and 2) my coding philosophy -- get it done, and then progressive enhancement. I used total around 4 hours when I got the task, and also, I've never touched Angular before. It is my first time to get into the Angular world. So there are some workaround that I need to use Angular way to redo it when I got a time.
 
