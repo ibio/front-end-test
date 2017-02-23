@@ -1,0 +1,36 @@
+<h2>{{$ctrl.data.title}}</h2>
+
+
+<form class="form-inline">
+  <div class="form-group">
+    <label for="exampleInputName2">Search by Zipcode</label>
+    <input type="text" ng-model="$ctrl.zipcode" class="form-control" id="exampleInputName2" placeholder="10010">
+  </div>
+  <button type="button" class="btn btn-primary" ng-click="$ctrl.handleSearch()">Search</button>
+</form>
+
+<br />
+<h4>{{$ctrl.data.item.title}}</h4>
+<h5>{{$ctrl.data.item.pubDate}}</h5>
+
+<div class="panel panel-default">
+  <div class="panel-heading"><strong>Current Condition</strong></div>
+  <div class="panel-body">
+    <p>Location: {{$ctrl.data.location.city}}, {{$ctrl.data.location.region}}, {{$ctrl.data.location.country}}</p>
+    <p>Current weather description: {{$ctrl.data.item.condition.text}}</p>
+    <p>Current temperature: {{$ctrl.data.item.condition.temp}}</p>
+    <p>Today's high temperature: -</p>
+    <p>Today's low temperature: -</p>
+    <p>
+      <button class="btn btn-primary" ng-click="$ctrl.handleMoreDetail()" ng-show="!$ctrl.isReplyDetailOpen" >
+        <i class="glyphicon glyphicon-leaf"></i> More Detail...
+      </button>
+    </p>
+   <div ng-show="$ctrl.isReplyDetailOpen">
+    <p>Wind Speed: {{$ctrl.data.wind.speed}}</p>
+    <p>Humidity: {{$ctrl.data.atmosphere.humidity}}</p>
+    <p>Pressure: {{$ctrl.data.atmosphere.pressure}}</p>
+    <p>Sunrise/Sunset Time: {{$ctrl.data.astronomy.sunrise}} / {{$ctrl.data.astronomy.sunset}}</p>
+   </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+{
+  "name": "front-end-test",
+  "version": "0.0.1",
+  "description": "This is just a demo to demonstrate 1) how fast I can learn new stuff and 2) my coding philosophy -- get it done first, and then do progressive enhancement.",
+  "main": "index.html",
+  "dependencies": {
+    "angular-chart.js": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibio/front-end-test.git"
+  },
+  "keywords": [
+    "angular",
+    "front-end"
+  ],
+  "author": "Ibio Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibio/front-end-test/issues"
+  },
+  "homepage": "https://github.com/ibio/front-end-test#readme"
+}

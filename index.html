@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="weatherApp">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>Weather App</title>
+	<link rel="stylesheet" type="text/css" href="res/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="res/main.css" />
+</head>
+
+<body>
+<div class="container">
+  <div class="header clearfix">
+    <nav>
+      <ul class="nav nav-pills pull-right">
+        <li role="presentation" class="active"><a href="javascript:void(0);">App</a></li>
+        <li role="presentation"><a target="_blank" href="https://ibio.github.io">By Tan</a></li>
+      </ul>
+    </nav>
+    <h3 class="text-muted">Weather App Demo</h3>
+  </div>
+
+  <weather-info class="weather-info"></weather-info>
+
+  <h4>7 Day forecast</h4>
+  <div ng-controller="LineCtrl">
+  	<canvas id="line" class="chart chart-line" chart-data="data"
+		chart-labels="labels" chart-series="series" chart-options="options"
+		chart-dataset-override="datasetOverride" chart-click="onClick">
+		</canvas>
+  </div>
+
+	<!-- <weather-chart class="weather-chart"></weather-chart>   -->
+
+  <footer class="footer">
+    <p>&copy; 2017 Tan@Fordham</p>
+  </footer>
+
+</div> <!-- /container -->
+
+<script src="script/angular.min.js"></script>
+<script src="node_modules/chart.js/dist/Chart.min.js"></script>
+<script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+
+<script src="script/app.module.js"></script>
+<script src="script/weatherinfo.component.js"></script>
+<!-- <script src="script/weatherchart.component.js"></script> -->
+</body>
+</html>
