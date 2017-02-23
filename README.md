@@ -4,6 +4,15 @@ An AngularJS focused take home test for Front-end Developers.
 
 Online Demo: http://us.ypseek.com/labs/2017/weather/
 
+Run locally:
+```
+git clone https://github.com/ibio/front-end-test.git
+cd front-end-test
+npm install
+```
+Use any local http server to visit it.
+
+
 ## Main features:
 * ajax json api to get Yahoo Weather Data
 * responsive design (mobile friendly)
