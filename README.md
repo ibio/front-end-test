@@ -9,7 +9,8 @@ Online Demo: http://us.ypseek.com/labs/2017/weather/
 * responsive design (mobile friendly)
 * angular chart
 
-* Browser Compatibility:
+
+### Browser Compatibility:
 * Chrome: Version 56.0.2924.87 (64-bit)
 * Safari: Version 10.0.3 (12602.4.8)
 * Firefox: 51.0.1 (64-bit)
