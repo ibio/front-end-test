@@ -35,6 +35,8 @@ angular.module('weatherApp', ['chart.js']).controller("LineCtrl", function ($sco
   $scope.onClick = function (points, evt) {
     console.log(points, evt);
   };
+  
+
   $scope.datasetOverride = [{ yAxisID: 'y-axis-1' }, { yAxisID: 'y-axis-2' }];
   $scope.options = {
     scales: {
