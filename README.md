@@ -1,6 +1,5 @@
-# Front End Test
-An AngularJS focused take home test for Front-end Developers.
-[Done!]
+# Angular JS little practice
+This is an Angular JS (version 1) practice. 
 
 Online Demo: http://us.ypseek.com/labs/2017/weather/
 
@@ -23,8 +22,6 @@ Use any local http server to visit it.
 * Chrome: Version 56.0.2924.87 (64-bit)
 * Safari: Version 10.0.3 (12602.4.8)
 * Firefox: 51.0.1 (64-bit)
-
-__NOTICE__: for this small project, I just developed it for demonstrating my ability 1) to learn new things very fast, and 2) my coding philosophy -- get it done, and then progressive enhancement. I used total around 4 hours when I got the task, and also, I've never touched Angular before. It is my first time to get into the Angular world. So there are some workaround that I need to use Angular way to redo it when I got a time.
 
 ## Instructions
 + Clone this repo [Done!]
@@ -53,4 +50,5 @@ __NOTICE__: for this small project, I just developed it for demonstrating my abi
     + High temperature
     + Low temperature
     + Weather description (ie. Breezy) [I didn't find out how to modify tips of the charts for now, but it certainly can be done...]
+
 + __Bonus:__ Was this too easy? Want to make it a real app? Use the [Yahoo's Weather API](https://developer.yahoo.com/weather/) or [Open Weather API](https://openweathermap.org/api) with the default location set to New York, NY, and allow the user to change the location by zip code. [Done!]
