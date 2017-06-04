@@ -1,7 +1,7 @@
 # Angular JS little practice
 This is an Angular JS (version 1) practice. 
 
-Online Demo: http://us.ypseek.com/labs/2017/weather/
+Online Demo: http://dev.mousky.com/weather/
 
 Run locally:
 ```
